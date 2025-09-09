@@ -7,6 +7,8 @@
         <module>number</module>
         <module>common</module>
         <module>gateway</module>
+        <module>try</module>
+        <module>generator</module>
     </modules>
     <dependencies>
         <dependency>

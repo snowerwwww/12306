@@ -9,6 +9,6 @@ public class MapperService {
     NumberMapper numberMapper;
 
     public int count(){
-        return numberMapper.count();
+        return (int) numberMapper.countByExample(null);
     }
 }
