@@ -14,5 +14,5 @@ public class NumberController {
 
     @GetMapping("/count")
 
-    public int count(){ return numberMapper.count();}
+    public int count(){ return (int) numberMapper.countByExample(null);}
 }
